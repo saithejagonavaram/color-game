@@ -1,20 +1,36 @@
 .top
 {
 
-	background : rgb(131, 206, 250);
+	background : steelblue;
 /*	padding-left:40%;
 	padding-right: 40%;*/
 
 	/*margin:0px;*/
 	margin: 0 auto;
 	text-align: center;
-
+    
 /*	width:100%;
 	height:100%;*/
 }
 body
 {
 	background : #232323;
+	font-family: "Avenir","Montserrat";
+	text-transform:uppercase;
+	padding : 0;
+	/*transition: all 2.0s;*/
+}
+li a
+{
+	transition: all 0.6s;
+	 -webkit-transition : all 0.6s;
+     -moz-transition : all 0.6s;
+
+}
+
+a:hover
+{
+	color:steelblue;
 }
 p
 {
@@ -22,10 +38,10 @@ p
 	padding-bottom: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 30px
-	/*width:200px;
-	margin: 0 auto;
-	text-align: center;*/
+	font-size: 30px;
+	color:white;
+
+	
 }
 
 .square
@@ -34,29 +50,42 @@ p
 	background:rgb(255, 0, 0);
 	width:30%;
 	margin:1.66%;
-	padding-bottom: 30%;
+	padding-bottom: 25%;
 	float: left;
-
+     
+   transition: background 0.6s;
+  border-radius: 15%;
+  -webkit-transition : background 0.6s;
+  -moz-transition : background 0.6s;
 
 
 }
 
 .selected
 {
-	/*background: rgb(131, 206, 250);*/
-	font-size: 1.5em;
+
+	
+	 font-size: 1.5em;
 
 }
 .container
-{
-	max-width: 750px;
+{   max-height:200px;
+	max-width: 60%;
+	 height:60;
+	color:steelblue;
+	margin-bottom: 0px;
+
 }
 #gamedecider,#playagain
 {
 	font-size: 1.5em;
-	color:black;
+	color:steelblue;
 	text-align: center;
 	margin : 0 auto;
+}
+#gamedecider,#playagain,#esyBtn,#hrdBtn
+{
+color: steelblue;
 }
 #container
 {

@@ -28,6 +28,7 @@ playagain1.addEventListener("click",function(){
 
               playagain1.textContent = "NEW COLOR";
              gamedecider.textContent=  "";
+             topclr.style.background="steelblue";
     if(mode=="easy")
     {
     	easymode();
@@ -50,6 +51,7 @@ playagain1.addEventListener("click",function(){
     {
 
           mode="easy";
+            gamedecider.textContent=  "";
          hrdBtn.classList.remove("selected");
          esyBtn.classList.add("selected");
 
@@ -102,6 +104,7 @@ playagain1.addEventListener("click",function(){
   {
             
             mode="hard";
+              gamedecider.textContent=  "";
              hrdBtn.classList.add("selected");
 	         esyBtn.classList.remove("selected");
             r=Math.floor(Math.random()*10000) %256;
